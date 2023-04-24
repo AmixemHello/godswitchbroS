@@ -1,0 +1,25 @@
+.loading.disable, .app.disable {
+    visibility: hidden;
+    display: block;
+    backface-visibility: hidden;
+    white-space: 0;
+    column-span: 0;
+    font-size: 0em;
+    font-weight: 0em;
+    height: 0px;
+    width: 0px;
+    text-overflow: clip;
+    empty-cells: hide;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    column-width: 0px;
+    max-height: 0px;
+}
+.app {
+    background: #444444;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #444444;
+}
